@@ -1,1 +1,3 @@
 20250429	17:29:55	a1ed8537-80f9-4ef7-b5da-e351430c67b5	Error: Not allowed by CORS
+20250429	22:50:56	c3a8f469-8365-4ad7-aea2-efce45563e76	ReferenceError: authorization is not defined
+20250429	22:53:22	9c45da1c-1194-42e2-afb9-769f25a22b20	ReferenceError: authorization is not defined

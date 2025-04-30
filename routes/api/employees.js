@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
 const {
   getAllEmployees,
@@ -6,15 +6,15 @@ const {
   updateEmployee,
   deleteEmployee,
   getEmployee,
-} = require("../../controllers/employeesController");
+} = require('../../controllers/employeesController');
 
 router
-  .route("/")
+  .route('/')
   .get(getAllEmployees)
   .post(createNewEmployee)
   .put(updateEmployee)
   .delete(deleteEmployee);
 
-router.route("/:id").get(getEmployee);
+router.route('/:id').get(getEmployee);
 
 module.exports = router;
